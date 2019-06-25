@@ -1,0 +1,277 @@
+/*  *{border: 1px solid red;} */
+/* body{ */
+/* 	background: #FFFEF4; */
+/* } */
+.section-space_about {
+	height: 100px;
+}
+
+
+
+.card-title {
+	color: #F68657;
+}
+
+.card-img-top {
+	max-height: 350px;
+	/* 	height: auto; */
+	/* 	width: 260px; */
+	/* 	width: auto; */
+	overflow: hidden;
+}
+
+/*common*/
+/* @import url('https://fonts.googleapis.com/css?family=Concert+One'); */
+
+/* main */
+/* .main { */
+/* font-family: 'Concert One', cursive; */
+/*     padding: 250px 50px 150px 50px; */
+/* -webkit-background-size: cover; */
+/* 	background: red; */
+/* 	height: 400px; */
+/* 	background-size: cover; */
+/* 	background: url("../vendor/images/about/about_second_background.jpeg") */
+/* 		center; */
+/* } */
+#section-space {
+	/* 	background: url("../vendor/images/about/about_second_background.jpeg") */
+	
+}
+
+.focus {
+	color: #fff;
+	height: 450px;
+	text-shadow: 2px 2px 2px #525252;
+}
+
+.focus>h1 {
+	font-size: 80px;
+}
+
+@media screen and (max-width: 650px) {
+	.focus>h1 {
+		font-size: 50px;
+	}
+	.focus>h2 {
+		font-size: 30px;
+	}
+	.main {
+		padding: 70px 50px 100px 50px;
+	}
+}
+
+/* < 400 */
+@media screen and (max-width: 450px) {
+	.main {
+		padding: 70px 50px 200px 50px;
+	}
+}
+
+
+/* job */
+.btn {
+	transition: all 0.5s;
+	font-size: 16px;
+	padding: 5px 18px;
+	background: #F68657;
+	color: #FFFFFF;
+	border: 2px solid #F68657;
+}
+/* 變化前 */
+.btn:before {
+	content: "";
+	display: block;
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	background: #fff;
+	top: 0;
+	left: 0;
+	opacity: 1;
+}
+/* 變化後 */
+.btn:hover:before {
+	opacity: 0;
+}
+
+.btn:hover {
+	border: 2px solid #F68657;
+	background: #FFFFFF;
+	color: #F68657;
+	font-weight: bold;
+}
+
+.register_filling_bottom input, textarea {
+/* 	width: 230px; */
+/* 	height: 25px; */
+	font-size: 14px;
+	box-shadow: inset 1px 1px 3px #ccc;
+}
+/* .cooperation{ */
+/* 	background: white; */
+/* 	box-shadow: 0px 0px 20px rgba(121, 121, 121, 0.7); */
+/* } */
+#about_title {
+	color: rgb(121, 98, 98);
+	color: #FFFFFF;
+	font-size: 55px;
+	text-align: center;
+	text-shadow: 1px 1px 5px #555;
+	/* margin-bottom: 30px; */
+}
+.about_text {
+	color: #FFFFFF;
+	font-size: 38px;
+	text-align: center;
+	text-shadow: 1px 1px 5px #555;
+}
+#about_text {
+	color: #FFFFFF;
+	font-size: 38px;
+	text-align: center;
+	text-shadow: 1px 1px 5px #555;
+}
+.text_box {
+	position: absolute;
+	top: 44%;
+	left: 28%;
+/* 	background: red; */
+/* 	background: rgba(255, 0, 0, 0.5); */
+}
+
+@media (max-width:1200px) {
+    .text_box {
+        position: absolute;
+        top: 44%;
+	    left: 20%;
+    }
+}
+@media (max-width:1000px) {
+    .text_box {
+        position: absolute;
+        top: 38%;
+	    left: 15%;
+    }
+}
+
+@media (max-width:900px) {
+    .text_box {
+        position: absolute;
+        top: 30%;
+	    left: 14%;
+    }
+	#about_title{
+		font-size: 44px;
+	}
+	#about_text1, #about_text2 {
+		font-size: 32px;
+	}
+}
+
+@media (max-width:768px) {
+    .text_box {
+        position: absolute;
+        top: 25%;
+	    left: 11%;
+    }
+	#about_title{
+        font-size: 40px;
+	}
+	#about_text1, #about_text2 {
+        font-size: 32px;
+	}
+}
+@media (max-width:730px) {
+    .text_box {
+        position: absolute;
+        top: 25%;
+	    left: 10%;
+    }
+	#about_title{
+        font-size: 40px;
+	}
+	#about_text1, #about_text2 {
+        font-size: 32px;
+	}
+}
+@media (max-width:580px) {
+    .text_box {
+        position: absolute;
+        top: 20%;
+	    left: 7%;
+    }
+	#about_title{
+        font-size: 36px;
+	}
+	#about_text1, #about_text2 {
+        font-size: 28px;
+	}
+}
+@media (max-width:530px) {
+    .text_box {
+        position: absolute;
+        top: 20%;
+	    left: 7%;
+    }
+	#about_title{
+        font-size: 34px;
+	}
+	#about_text1, #about_text2 {
+        font-size: 26px;
+	}
+}
+@media (max-width:500px) {
+    .text_box {
+        position: absolute;
+        top: 20%;
+	    left: 7%;
+    }
+	#about_title{
+        font-size: 32px;
+	}
+	#about_text1, #about_text2 {
+        font-size: 22px;
+	}
+}
+@media (max-width:480px) {
+    .text_box {
+        position: absolute;
+        top: 14%;
+	    left: 4%;
+    }
+	#about_title{
+        font-size: 28px;
+	}
+	#about_text1, #about_text2 {
+        font-size: 18px;
+	}
+}
+@media (max-width:410px) {
+    .text_box {
+        position: absolute;
+        top: 13%;
+	    left: 2%;
+    }
+	#about_title{
+        font-size: 26px;
+	}
+	#about_text1, #about_text2 {
+        font-size: 16px;
+/*         background: red; */
+	}
+}
+@media (max-width:370px) {
+    .text_box {
+        position: absolute;
+        top: 13%;
+	    left: 2%;
+    }
+	#about_title{
+        font-size: 24px;
+	}
+	#about_text1, #about_text2 {
+        font-size: 16px;
+/*         background: red; */
+	}
+}

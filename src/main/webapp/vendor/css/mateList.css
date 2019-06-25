@@ -1,0 +1,4 @@
+tbody tr :nth-child(3){
+    min-width: 200px;
+    padding-left: 15px;
+}

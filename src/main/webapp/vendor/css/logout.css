@@ -1,0 +1,10 @@
+div{
+    color: #333333;
+    font-size: 22px;
+}
+.section_logout{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    
+}
